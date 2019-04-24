@@ -1,0 +1,11 @@
+
+.content {
+		text-align: center;
+		width: 100%;
+		height: auto;
+		padding: 2rpx 2rpx 0;
+}
+.image-title{
+	line-height: ;
+}
+

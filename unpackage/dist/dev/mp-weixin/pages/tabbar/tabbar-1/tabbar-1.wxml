@@ -1,0 +1,1 @@
+<view class="content" bind:__l="__l"><block wx:for="{{homeList}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view class="image-item"><view class="image-content"><image style="background-color:#eeeeee;" mode="aspectFill" src="{{item.articleCover}}"></image></view><view class="image-title">{{item.articleTitle}}</view></view></block></view>
