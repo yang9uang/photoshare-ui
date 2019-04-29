@@ -5,6 +5,7 @@
 			<view class="auther-info">{{ articleInfo.articleTime }}</view>
 			<view class="auther-info">{{ articleInfo.userName }}</view>
 		</view>
+		<image style="width: 100%;text-align: center;" :src="articleInfo.articleCover" v-if="articleInfo.articleCover != null" mode="aspectFit"></image>
 		<rich-text type="text" class="article-content" :nodes="articleInfo.articleContent"></rich-text>
 	</view>
 </template>
@@ -45,7 +46,7 @@ export default {
 }
 .title {
 	line-height: 100upx;
-	font-size: 60upx;
+	font-size: 50upx;
 	font-weight: 700;
 }
 .article-content {

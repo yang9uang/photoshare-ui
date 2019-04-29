@@ -4,6 +4,7 @@
 		{
 			"path": "pages/tabbar/tabbar-index/tabbar-index",
 			"style": {
+				
 			}
 		},
 		{
@@ -42,7 +43,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "影约社区",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#EEEEEE",
 		"backgroundColor": "rgba(134,141,137,0.47)"
 	},
 	"tabBar": {
